@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const greetingElement = document.getElementById('dynamicGreeting');
     const currentHour = new Date().getHours();
     if (currentHour < 12) {
-        greetingElement.textContent = "Good Morning! Welcome to my portfolio.";
+        greetingElement.textContent = "Өглөөний мэнд миний веб хуудсанд тавтай морил.";
     } else if (currentHour < 18) {
-        greetingElement.textContent = "Good Afternoon! Welcome to my portfolio.";
+        greetingElement.textContent = "Өдрийн мэнд миний веб хуудсанд тавтай морил.";
     } else {
-        greetingElement.textContent = "Good Evening! Welcome to my portfolio.";
+        greetingElement.textContent = "Оройн мэнд миний веб хуудсанд тавтай морил.";
     }
 });
 document.addEventListener('DOMContentLoaded', function() {
@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleDetailsBtn.addEventListener('click', function() {
         if (detailedInfo.style.display === 'none') {
             detailedInfo.style.display = 'block';
-            toggleDetailsBtn.textContent = 'Read Less';
+            toggleDetailsBtn.textContent = 'Хураах';
         } else {
             detailedInfo.style.display = 'none';
-            toggleDetailsBtn.textContent = 'Read More';
+            toggleDetailsBtn.textContent = 'Дэлгэрэнгүй';
         }
     });
 });
