@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #B22222; 
 }
 
 header {
@@ -107,4 +107,25 @@ section {
 
 #toggleDetails:hover {
     background-color: #555;
+}
+
+.snowflake {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.7;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(calc(100vh + 10px));
+    }
+}
+body {
+    font-family: 'Dancing Script', cursive;
 }
