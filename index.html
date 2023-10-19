@@ -1,42 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" 
-    content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
-    <title>Танилцуулга</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="image" property="og:image" content="./assets/images/portfolio.png">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJT0DZ7LKM"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){window.dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-YJT0DZ7LKM');
+   </script>
+  <title>My Portfolio Website</title> 
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="ball"></div>
+  <header class="header">
+    <nav class="mobile-nav">
+        <a href="#"> Welcome</a>
+        <a href="#menu" id="menu-icon"><img src="./assets/icons/hamburger.svg" alt="Menu"></a>
+    </nav>
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>    
+    </nav>
+  </header>
+  
+  <section class="headline" id="portfolio">
+    <h1 class="headline-title">Hey there. I’m Buyanaa. <br><span>I’m a software developer</span> </h1>
+    <p class="headline-description">I can help you build a product, feature or website Look through
+      some of my  work and experience! If you like what you see and have 
+      a project you need coded, don’t hestiate to contact me.
+    </p>
+    <ul class="headline-icons">
+      <li><a href="https://twitter.com/SoloAchilles/" ><img src="./assets/icons/twitter.svg" alt="Twitter"></a></li>
+      <li><a href="https://www.linkedin.com/in/solomon-hagan/" ><img src="./assets/icons/Linkedin_icon.svg" alt="LinkedIn"></a></li>
+      <li><a href="https://medium.com/@solomon-hagan" ><img src="./assets/icons/medium.svg" alt="Medium"></a></li>
+      <li><a href="https://github.com/Achilles-Dev/" ><img src="./assets/icons/github.svg" alt="Github"></a></li>
+      <li><a href="https://angel.co/u/solomon-hagan" ><img src="./assets/icons/angellist.svg" alt="Angellist"></a></li>
+    </ul>
+    <div class="headline-dropdown">
+      <a href="#"><img src="./assets/icons/Disabled.svg" alt="Dropdown"></a>
+    </div>
+  </section>
+  
+  <section class="works">
 
-    <header>
-        <h1>Буянхишиг Чулуунбаатар</h1>
-        <p id="dynamicGreeting">Миний веб хуудсанд тавтай морил</p>
-        <div class="social-media">
-            <a href="https://www.facebook.com/profile.php?id=100007513007899" class="btn facebook">Facebook</a>
-            <a href="https://www.instagram.com/baldanuba/" class="btn twitter">Instagram</a>
-            <a href="https://github.com/buyankhishig23" class="btn github">GitHub</a>
+    <div class="works-title">
+      <h2>My Recent Works</h2>
+      <span class="indicator"></span>
+    </div>
+    <div class="works-cards">
+      <div class="works-card">
+        <span></span>
+      <div class="title">        
+          <h2>To Do List</h2>
+          <ul>
+            <li>CSS</li>
+            <li>JavScript</li>
+            <li>HTML</li>
+          </ul>
+          <a class="project-button" id="1" href="#button">See Project</a>
+      </div>
+      </div>
+      <div class="works-card">
+        <span></span>
+        <div class="title">
+          <h2>Money Manager</h2>
+          <ul>
+            <li>Ruby</li>
+            <li>Rails</li>
+            <li>CSS & Bootstrap 5</li>
+            <li>Postgresql</li>
+          </ul>
+          <a class="project-button" id="2" href="#button">See Project</a>
+      </div>
+      </div>
+      <div class="works-card">
+        <span></span>
+        <div class="title">
+          <h2>Bookstore App</h2>
+            <ul>
+              <li>React</li>
+              <li>CSS</li>
+              <li>Redux</li>
+            </ul>
+            <a class="project-button" id="3" href="#button">See Project</a>
         </div>
-    </header>
-    
-    
-    <section id="projects">
-        <h2>Миний зурагнууд</h2>
-        <div class="slider">
-            <div class="slide" style="background-image: url('img/1.png');"></div>
-            <div class="slide" style="background-image: url('img/2.png');"></div>
-            <div class="slide" style="background-image: url('img/3.png');"></div>
+      </div>
+      <div class="works-card">
+        <span></span>
+        <div class="title">
+          <h2>Motorcycle-booking-service</h2>
+            <ul>
+              <li>React</li>
+              <li>CSS</li>
+              <li>Redux</li>
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>Ruby</li>
+              <li>Bootstrap</li>
+            </ul>
+            <a class="project-button" id="4" href="#button">See Project</a>
         </div>
+      </div>
+      <div class="works-card">
+        <span></span>
+        <div class="title">
+          <h2>Math Magicians App</h2>
+            <ul>
+              <li>React</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a class="project-button" id="5" href="#button">See Project</a>
+        </div>
+      </div>
+      <div class="works-card">
+        <span></span>
+        <div class="title">
+          <h2>PraisyDram Concert</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a class="project-button" id="6" href="#button">See Project</a>
+        </div>
+      </div>
+    </div>
+      
+  </section>
+  
+  <section class="about" id="about">
+    <div class="about-title">
+      <h2>About me</h2>
+      <p>
+        I can help you build a product , feature or website. Look through some of my work and experience! 
+        If you like what you see and have a project you need coded, 
+        don’t hestiate to contact me.
+      </p>
+      <a href="https://docs.google.com/document/d/1OKftefOW2dRufjc7EFsXKZo-uBP-LHXA4MmBD5jq2Wg/edit?usp=sharing">Get My Resume</a>
+    </div>
+    <div class="about-cards">
+
+      <ul class="about-card about1">     
+        <li><img src="./assets/icons/icon-languages.svg" alt="Language-icon"></li>
+        <li class="about-card-title">  
+          <h2>Languages</h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </li>    
+      </ul>
+      <ul class="about-card about2">    
+        <li><img src="./assets/icons/icon-frameworks.svg" alt="Framework-icon"></li>
+        <li class="about-card-title">
+          <h2>Frameworks</h2>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>React</li>
+            <li>Redux</li>
+          </ul>
+        </li>          
+      </ul>
+      <ul class="about-card about3">    
+        <li><img src="./assets/icons/icon-skills.svg" alt="Skills-icon"></li>
+        <li class="about-card-title">
+          <h2>Skills</h2>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </li>       
+      </ul>
+
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+
+    <section class="contact-form">
+      <h2 class="contact-form-text">
+        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+      </h2> 
+      <form action="https://formspree.io/f/xgedkaee" method="POST" id="contact-me">
+        <input type="text" name="full_name" placeholder="Full name" required
+        maxlength="30"> 
+        <input type="email" name="email" placeholder="Email-address" required>
+        <textarea name="message" placeholder="Enter text here" required
+        maxlength="500"></textarea>
+        <span></span>
+        <button type="submit" class="get-in-touch">Get in touch</button>
+      </form>
     </section>
-    <section id="contact">
-        <h2>Холбоо барих</h2>
-        <p>Email: buynkhishig0315@gmail.com</p>
-        <p>Утас: 94270315</p>
-    </section>
-    <script src="script.js"></script>
+    <ul class="footer-icons">
+      <li><a href="https://twitter.com/SoloAchilles/" ><img src="./assets/icons/twitter.svg" alt="Twitter"></a></li>
+      <li><a href="https://www.linkedin.com/in/solomon-hagan/" ><img src="./assets/icons/Linkedin_icon.svg" alt="LinkedIn"></a></li>
+      <li><a href="https://github.com/Achilles-Dev/" ><img src="./assets/icons/github.svg" alt="Github"></a></li>
+      <li><a href="https://angel.co/u/solomon-hagan" ><img src="./assets/icons/angellist.svg" alt="Angellist"></a></li>
+    </ul>
+    <span>buynkhishig0315@gmail.com</span>
+  </footer>
+
+  <div class="mobile-menu modal">
+    <div class="modal-content">
+      <span class="close">&#215;</span>
+      <ul id="menu" class="modal-list">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>  
+    </div>
+    <span class="modal-bar"></span>
+  </div>
+  
+  <script type="module" src="./main.js"></script>
 </body>
 </html>
