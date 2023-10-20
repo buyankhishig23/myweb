@@ -1093,3 +1093,18 @@ textarea.success {
     color: #fff;
   }
 }
+.custom-button {
+  font-size: 20px;         /* Adjust the font size */
+  padding: 15px 30px;     /* Adjust the padding to increase the size */
+  background-color: #28d73c; /* Set the background color to a shade of blue */
+  border: none;           /* Remove the default border */
+  color: white;           /* Change the font color to white */
+  border-radius: 5px;     /* Add rounded corners */
+  cursor: pointer;        /* Change the cursor to a hand when hovering over the button */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.custom-button:hover {
+  background-color: #2980b9; /* Darken the background color when the button is hovered */
+}
+
