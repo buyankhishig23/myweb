@@ -184,3 +184,4 @@ contactForm.addEventListener('submit', (event) => {
     contactForm.submit();
   }
 });
+
