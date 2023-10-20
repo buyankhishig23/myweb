@@ -1108,3 +1108,11 @@ textarea.success {
   background-color: #2980b9; /* Darken the background color when the button is hovered */
 }
 
+.form1 {
+  width: 100%;  
+
+}
+
+.form2 {
+  width: 100%; 
+}
